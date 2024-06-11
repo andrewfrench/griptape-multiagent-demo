@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gt-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Andrew French <andrew@afren.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+osmnx = "^1.7.0"
+overpy = "^0.6"
+geopy = "^2.4.0"
+griptape = {extras = ["drivers-web-scraper-trafilatura"], version = "^0.26.0"}
+elevenlabs = "^1.1.2"
+duckduckgo-search = "^6.1.5"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
